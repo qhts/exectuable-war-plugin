@@ -9,21 +9,21 @@ war转可执行jar插件，使用java8编译,内置tomcat8.0.32
  
 2.引入插件
 >\<plugin><br>
-				\<groupId>com.newera.plugin</groupId><br>
-  			\<artifactId>exectuable-war-plugin</artifactId><br>
-        \<version>1.0.6</version><br>
+				\<groupId>com.newera.plugin\</groupId><br>
+  			\<artifactId>exectuable-war-plugin\</artifactId><br>
+        \<version>1.0.6\</version><br>
 				\<executions><br>
 					\<execution><br>
-						\<phase>install</phase><br>
+						\<phase>install\</phase><br>
 						\<goals><br>
-							\<goal>tomcatwrapper</goal><br>
+							\<goal>tomcatwrapper\</goal><br>
 						\</goals><br>
 					\</execution><br>
 				\</executions><br>
 				\<configuration><br>
           \<!-- 是否删除原来的war文件 --><br>
-					\<deleteWar>false</deleteWar><br>
-					\<tomcatSettings>warName=${war.name}</tomcatSettings><br>
+					\<deleteWar>false\</deleteWar><br>
+					\<tomcatSettings>warName=${war.name}\</tomcatSettings><br>
 				\</configuration><br>
 \</plugin><br>
 
